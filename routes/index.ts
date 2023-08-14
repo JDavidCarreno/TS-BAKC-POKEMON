@@ -1,8 +1,8 @@
-import { Request, Response, Router } from "express";
+import { Router } from "express";
 import { getPokemon } from "../controllers/getPokemon";
 
 const router = Router();
 
-router.get('/prueba', getPokemon)
+router.get('/pokemons', getPokemon)
 
 export { router }

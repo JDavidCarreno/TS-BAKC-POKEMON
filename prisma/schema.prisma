@@ -17,6 +17,7 @@ model Pokemon {
   defense    Int
   speed      Int?
   weight     Int?
+  height     Int?
   types      Type[]  @relation("TypesPokemons")
 }
 
